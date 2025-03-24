@@ -13,8 +13,8 @@
             <form action="/jogo/update" method="post">
                 <input type="hidden" name="id" value="${jogo.id}">
                 <div class="form-group">
-                    <label for="nome">TItulo:</label>
-                    <input type="text" name="nome" class="form-control" value="${jogo.titulo}">
+                    <label for="nome">Titulo:</label>
+                    <input type="text" name="titulo" class="form-control" value="${jogo.titulo}">
                 </div>
                 <div class="form-group">
                     <label for="categoria">Categoria:</label>
